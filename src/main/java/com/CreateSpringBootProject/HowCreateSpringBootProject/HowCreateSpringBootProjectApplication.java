@@ -11,8 +11,5 @@ public class HowCreateSpringBootProjectApplication {
 		SpringApplication.run(HowCreateSpringBootProjectApplication.class, args);
 	}
 
-	@Bean
-	public StudentService studentService() {
-		return new StudentServiceImpl();
-	}
+
 }
